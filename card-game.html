@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game</title>
+    <script src="Card.js"></script>
+    <script src="Desk.js"></script>
+</head>
+<style>
+    img {
+        width: 100px;
+    }
+</style>
+
+<body>
+    <div id="desk"></div>
+    <script>
+        let desk = new Desk();
+        desk.createDesk();
+        desk.showAll('desk');
+    </script>
+</body>
+
+</html>
